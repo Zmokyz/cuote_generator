@@ -19,16 +19,17 @@ html ,body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #quote_div {
     position: relative;
     background-color: #20293A;
     height: 20vh;
-    max-width: 600px;
-    width: 52vh;
+    max-width: 80%;
+    min-width: 500px ;
     border-radius: 20px;
-    margin: 1vh;
+    margin: 2vh;
     text-align: center;
     overflow: hidden;
 }
@@ -60,6 +61,22 @@ html ,body{
 #show_quote{
     padding: 1vh;
     font-size: 1.5rem;
+}
+
+.btns {
+    border: #20293A 1px solid;
+    position: relative;
+    margin-right: -5px;
+    width: 4dvh;
+    height: auto;
+}
+
+#button_random {
+    border-radius: 10px 0px 0px 10px;
+}
+
+#button_copy{
+    border-radius: 0px 10px 10px 0px;
 }
 
 .button_class{
