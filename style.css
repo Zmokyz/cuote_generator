@@ -32,6 +32,7 @@ html ,body{
     margin: 2vh;
     text-align: center;
     overflow: hidden;
+    padding: 1vh;
 }
 
 #img_div {
